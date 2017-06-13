@@ -42,3 +42,12 @@ if response["statusCode"] != 200:
 if not response["body"].startswith("{"):
   raise Exception("Detected text/plain response to an application/json request", response)
 
+response = main.lambda_handler({"headers": {"Accept": "Accept:application/json, text/javascript, */*; q=0.01"}}, {})
+print(response)
+if response["headers"] != {"Content-Type": "application/json"}:
+  raise Exception("Incorrect content type in response", response)
+if response["statusCode"] != 200:
+  raise Exception("Incorrect status code in response", response)
+if not response["body"].startswith("{"):
+  raise Exception("Detected text/plain response to an application/json request", response)
+
