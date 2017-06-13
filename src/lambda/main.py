@@ -18,24 +18,33 @@ def lambda_handler(event, context):
       "statusCode": 500
     }
 
-  contentType = "text/plain"
-
-  headers = event.get("headers")
-  if headers is None:
-    headers = {}
-  acceptHeader = headers.get("Accept")
-  if acceptHeader is None:
-    acceptHeader = "application/json"
-
-  if acceptHeader == "application/json":
+  contentType = get_content_type(event)
+  if contentType == "application/json":
     body = json.dumps({"pun" : body})
-    contentType = "application/json"
 
   return {
     "body": body,
     "headers": {"Content-Type": contentType},
     "statusCode": 200
   }
+
+def get_content_type(event):
+  defaultContentType = "application/json"
+
+  headers = event.get("headers")
+  if headers is None:
+    return defaultContentType
+
+  acceptHeader = headers.get("Accept")
+  if acceptHeader is None:
+    return defaultContentType
+
+  for acceptType in acceptHeader.split(","):
+    simpleAcceptType = acceptType.split(";", 1)[0].strip()
+    if simpleAcceptType == "application/json" or simpleAcceptType == "text/plain":
+      return simpleAcceptType
+
+  return defaultContentType
 
 def get_pun():
   # read the html content of the random pun page into a string
