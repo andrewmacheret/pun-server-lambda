@@ -67,7 +67,7 @@ aws lambda update-function-configuration \
   --memory-size "$LAMBDA_FUNCTION_MEMORY" \
   --description "$LAMBDA_FUNCTION_DESCRIPTION"
 
-echo "Done!"
+echo 'Done!'
 
 echo "
 Now set up the following:
