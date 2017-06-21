@@ -17,7 +17,7 @@ if len(pun) <= 0:
 
 response = main.lambda_handler({"headers": {"Accept": "text/plain"}}, {})
 print(response)
-if response["headers"] != {"Content-Type": "text/plain"}:
+if response["headers"] != {"Content-Type": "text/plain", "Access-Control-Allow-Origin": "*"}:
   raise Exception("Incorrect content type in response", response)
 if response["statusCode"] != 200:
   raise Exception("Incorrect status code in response", response)
@@ -26,7 +26,7 @@ if response["body"].startswith("{"):
 
 response = main.lambda_handler({"headers": {"Accept": "application/json"}}, {})
 print(response)
-if response["headers"] != {"Content-Type": "application/json"}:
+if response["headers"] != {"Content-Type": "application/json", "Access-Control-Allow-Origin": "*"}:
   raise Exception("Incorrect content type in response", response)
 if response["statusCode"] != 200:
   raise Exception("Incorrect status code in response", response)
@@ -35,7 +35,7 @@ if not response["body"].startswith("{"):
 
 response = main.lambda_handler({"headers": None}, {})
 print(response)
-if response["headers"] != {"Content-Type": "application/json"}:
+if response["headers"] != {"Content-Type": "application/json", "Access-Control-Allow-Origin": "*"}:
   raise Exception("Incorrect content type in response", response)
 if response["statusCode"] != 200:
   raise Exception("Incorrect status code in response", response)
@@ -44,7 +44,7 @@ if not response["body"].startswith("{"):
 
 response = main.lambda_handler({"headers": {"Accept": "Accept:application/json, text/javascript, */*; q=0.01"}}, {})
 print(response)
-if response["headers"] != {"Content-Type": "application/json"}:
+if response["headers"] != {"Content-Type": "application/json", "Access-Control-Allow-Origin": "*"}:
   raise Exception("Incorrect content type in response", response)
 if response["statusCode"] != 200:
   raise Exception("Incorrect status code in response", response)
