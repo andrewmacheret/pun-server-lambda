@@ -14,7 +14,7 @@ def lambda_handler(event, context):
   except Exception as ex:
     return {
       "body": json.dumps({"errors" : ex.args}),
-      "headers": {"Content-Type": "application/json"},
+      "headers": {"Content-Type": "application/json", "Access-Control-Allow-Origin": "*"},
       "statusCode": 500
     }
 
@@ -24,7 +24,7 @@ def lambda_handler(event, context):
 
   return {
     "body": body,
-    "headers": {"Content-Type": contentType},
+    "headers": {"Content-Type": contentType, "Access-Control-Allow-Origin": "*"},
     "statusCode": 200
   }
 

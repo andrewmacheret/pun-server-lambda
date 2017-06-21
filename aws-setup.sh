@@ -51,7 +51,7 @@ lambda_response="$(
     --function-name "$LAMBDA_FUNCTION_NAME" 2>/dev/null || \
   aws lambda create-function \
     --function-name "$LAMBDA_FUNCTION_NAME" \
-    --runtime "python2.7" \
+    --runtime "$LAMBDA_FUNCTION_RUNTIME" \
     --handler "$LAMBDA_FUNCTION_HANDLER" \
     --role "$ROLE_ARN" \
     --zip-file "fileb://lambda-build.zip"
