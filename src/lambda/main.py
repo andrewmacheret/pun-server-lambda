@@ -49,22 +49,13 @@ def get_content_type(event):
 def get_pun():
   # read the html content of the random pun page into a string
   try:
-    html_content = urllib2.urlopen("http://www.punoftheday.com/cgi-bin/randompun.pl", timeout = 1).read()
+    json_content = urllib2.urlopen("https://kylebob.com/get.php?category=puns", timeout = 1).read()
   except urllib2.URLError, e:
     raise Exception("URL error waiting for pun")
   except socket.timeout, e:
     raise Exception("Socket timeout waiting for pun")
 
-  # create a beautiful soup object out of the raw html (the prettify is probably not necessary)
-  soup = BeautifulSoup(html_content, "html.parser")
-  soup.prettify()
-
-  # find and print the pun... it's the text in the element: div#main-content div.dropshadow1
-  pun = soup.find("div", {"id": "main-content"}).find("div", {"class": "dropshadow1"}).text
-
-  pun = pun.strip()
-
-  return pun
+  return json.loads(json_content)["thing"]
 
   #try:
   #  client = MongoClient()
