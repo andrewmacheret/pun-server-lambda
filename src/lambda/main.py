@@ -1,26 +1,24 @@
-#!/usr/bin/env python2.7
+import json
+from urllib.request import Request, urlopen
 
-# imports
-from pprint import pprint
-import urllib2
-import socket
-import json  
-from bs4 import BeautifulSoup
-#from pymongo import MongoClient
+JOKE_URL = "https://icanhazdadjoke.com/"
+# icanhazdadjoke asks callers to send a User-Agent that says who they are
+USER_AGENT = "pun-server-lambda (https://github.com/andrewmacheret/pun-server-lambda)"
+
 
 def lambda_handler(event, context):
   try:
     body = get_pun()
   except Exception as ex:
     return {
-      "body": json.dumps({"errors" : ex.args}),
+      "body": json.dumps({"errors": [str(ex)]}),
       "headers": {"Content-Type": "application/json", "Access-Control-Allow-Origin": "*"},
       "statusCode": 500
     }
 
   contentType = get_content_type(event)
   if contentType == "application/json":
-    body = json.dumps({"pun" : body})
+    body = json.dumps({"pun": body})
 
   return {
     "body": body,
@@ -28,14 +26,12 @@ def lambda_handler(event, context):
     "statusCode": 200
   }
 
+
 def get_content_type(event):
   defaultContentType = "application/json"
 
-  headers = event.get("headers")
-  if headers is None:
-    return defaultContentType
-
-  acceptHeader = headers.get("Accept")
+  headers = event.get("headers") or {}
+  acceptHeader = next((value for key, value in headers.items() if key.lower() == "accept"), None)
   if acceptHeader is None:
     return defaultContentType
 
@@ -46,25 +42,11 @@ def get_content_type(event):
 
   return defaultContentType
 
+
 def get_pun():
-  # read the html content of the random pun page into a string
+  request = Request(JOKE_URL, headers={"Accept": "application/json", "User-Agent": USER_AGENT})
   try:
-    json_content = urllib2.urlopen("https://kylebob.com/get.php?category=puns", timeout = 1).read()
-  except urllib2.URLError, e:
-    raise Exception("URL error waiting for pun")
-  except socket.timeout, e:
-    raise Exception("Socket timeout waiting for pun")
-
-  return json.loads(json_content)["thing"]
-
-  #try:
-  #  client = MongoClient()
-  #  db = client["pundb"]
-  #  collection = db["puns"]
-  #  punDict = {"full": pun}
-  #  collection.update(punDict, punDict, True)
-  #except:
-  #  # do nothing on insertion error
-  #  pass
-
-
+    with urlopen(request, timeout=2) as conn:
+      return json.load(conn)["joke"]
+  except Exception as ex:
+    raise Exception(f"Could not get a joke from {JOKE_URL}: {ex}") from ex

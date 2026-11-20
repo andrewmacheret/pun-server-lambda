@@ -2,7 +2,9 @@
 
 [![License](https://img.shields.io/badge/license-MIT-lightgray.svg)](https://github.com/andrewmacheret/python-server-lambda/blob/master/LICENSE.md)
 
-Random pun server!
+Random pun server! Jokes come from [icanhazdadjoke](https://icanhazdadjoke.com/).
+
+Returns `{"pun": "..."}` by default, or just the joke when called with `Accept: text/plain`.
 
 ## Dependencies
 
@@ -16,7 +18,9 @@ Installation requires a UNIX environment with:
 
 Run aws-setup.sh to install AWS command line tools and create an AWS Lambda Function. (*It will run `aws configure`, so have an key id and access key ready*)
 
-Run aws-update-lambda.sh after further changes to source code to update the AWS Lambda Functon with the new source code.
+Run aws-update-lambda.sh after further changes to source code to update the AWS Lambda Functon with the new source code. Pushes to `master` do this automatically through GitHub Actions (see `.github/workflows/deploy.yml`).
+
+Run tests with `cd src/lambda && python3 -m unittest`. One test calls the real icanhazdadjoke API.
 
 You may also want to:
 1. Create an API gateway with AWS API Gateway, and connect it to the AWS Lambda Function
