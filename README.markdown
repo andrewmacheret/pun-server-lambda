@@ -1,29 +1,17 @@
 # Random pun server using Python and AWS Lambda
 
-[![License](https://img.shields.io/badge/license-MIT-lightgray.svg)](https://github.com/andrewmacheret/python-server-lambda/blob/master/LICENSE.md)
+[![License](https://img.shields.io/badge/license-MIT-lightgray.svg)](https://github.com/andrewmacheret/pun-server-lambda/blob/master/LICENSE.md)
 
 Random pun server! Jokes come from [icanhazdadjoke](https://icanhazdadjoke.com/).
 
 Returns `{"pun": "..."}` by default, or just the joke when called with `Accept: text/plain`.
 
-## Dependencies
+## Development
 
-Installation requires a UNIX environment with:
+Run tests with `cd src/lambda && python3 -m unittest` (needs Python 3.14). One test calls the real icanhazdadjoke API.
 
-- Bash
-- Python
-- An Amazon Web Services account
+## Deploy
 
-## Setup and installation
+Pushes to `master` run the tests and deploy to the `Pun` AWS Lambda function through GitHub Actions (see `.github/workflows/deploy.yml`). To redeploy without a code change, use "Run workflow" on the Actions tab.
 
-Run aws-setup.sh to install AWS command line tools and create an AWS Lambda Function. (*It will run `aws configure`, so have an key id and access key ready*)
-
-Run aws-update-lambda.sh after further changes to source code to update the AWS Lambda Functon with the new source code. Pushes to `master` do this automatically through GitHub Actions (see `.github/workflows/deploy.yml`).
-
-Run tests with `cd src/lambda && python3 -m unittest`. One test calls the real icanhazdadjoke API.
-
-You may also want to:
-1. Create an API gateway with AWS API Gateway, and connect it to the AWS Lambda Function
-2. Create a new certificate with AWS Certificate Manager for use with AWS API Gateway (for HTTPS)
-3. Create a new custom domain in AWS API Gateway (for HTTPS, and/or to put on your domain)
-4. Create a CNAME record with your domain name provider (for HTTPS, and/or to put on your domain)
+The workflow signs in to AWS with GitHub OIDC using the IAM role in the `AWS_ROLE_ARN` repo variable. The Lambda sits behind AWS API Gateway at `pun.andrewmacheret.com`.

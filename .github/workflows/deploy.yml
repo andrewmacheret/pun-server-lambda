@@ -9,6 +9,10 @@ on:
 permissions:
   contents: read
 
+env:
+  FUNCTION_NAME: Pun
+  RUNTIME: python3.14
+
 jobs:
   test:
     runs-on: ubuntu-latest
@@ -29,14 +33,24 @@ jobs:
       id-token: write
     steps:
       - uses: actions/checkout@v7
-      - uses: actions/setup-python@v7
-        with:
-          python-version: '3.14'
+      - run: zip -j lambda.zip src/lambda/main.py
       - uses: aws-actions/configure-aws-credentials@v6
         with:
           role-to-assume: ${{ vars.AWS_ROLE_ARN }}
           aws-region: us-east-1
-      - run: ./aws-update-lambda.sh
+      # AWS blocks code updates on old runtimes, so set the runtime first
+      - name: Update runtime and settings
+        run: |
+          aws lambda update-function-configuration --function-name "$FUNCTION_NAME" \
+            --runtime "$RUNTIME" --handler main.lambda_handler --timeout 3 --memory-size 128 \
+            --output text --query LastUpdateStatus
+          aws lambda wait function-updated --function-name "$FUNCTION_NAME"
+      - name: Update code
+        run: |
+          aws lambda update-function-code --function-name "$FUNCTION_NAME" \
+            --zip-file fileb://lambda.zip \
+            --output text --query LastUpdateStatus
+          aws lambda wait function-updated --function-name "$FUNCTION_NAME"
       - name: Smoke test
         run: |
           curl -sSf -H 'Accept: application/json' https://pun.andrewmacheret.com/ | tee /dev/stderr | jq -e '.pun'
