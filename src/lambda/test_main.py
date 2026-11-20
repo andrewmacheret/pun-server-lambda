@@ -15,6 +15,9 @@ class TestGetPun(unittest.TestCase):
       self.assertEqual(pun, pun.strip())
       self.assertGreater(len(pun), 0)
 
+  def test_no_duplicates(self):
+    self.assertEqual(len(main.PUNS), len(set(main.PUNS)))
+
   def test_get_pun(self):
     self.assertIn(main.get_pun(), main.PUNS)
 
