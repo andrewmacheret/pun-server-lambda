@@ -1,9 +1,9 @@
 import json
-from urllib.request import Request, urlopen
+import random
+from pathlib import Path
 
-JOKE_URL = "https://icanhazdadjoke.com/"
-# icanhazdadjoke asks callers to send a User-Agent that says who they are
-USER_AGENT = "pun-server-lambda (https://github.com/andrewmacheret/pun-server-lambda)"
+PUNS_FILE = Path(__file__).with_name("puns.txt")
+PUNS = PUNS_FILE.read_text(encoding="utf-8").splitlines()
 
 
 def lambda_handler(event, context):
@@ -44,9 +44,4 @@ def get_content_type(event):
 
 
 def get_pun():
-  request = Request(JOKE_URL, headers={"Accept": "application/json", "User-Agent": USER_AGENT})
-  try:
-    with urlopen(request, timeout=2) as conn:
-      return json.load(conn)["joke"]
-  except Exception as ex:
-    raise Exception(f"Could not get a joke from {JOKE_URL}: {ex}") from ex
+  return random.choice(PUNS)

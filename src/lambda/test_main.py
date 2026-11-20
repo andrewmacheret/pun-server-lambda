@@ -9,11 +9,14 @@ TEXT_HEADERS = {"Content-Type": "text/plain", "Access-Control-Allow-Origin": "*"
 
 
 class TestGetPun(unittest.TestCase):
-  # Calls the real icanhazdadjoke API
-  def test_real_joke(self):
-    pun = main.get_pun()
-    self.assertIsInstance(pun, str)
-    self.assertGreater(len(pun), 0)
+  def test_puns_file(self):
+    self.assertGreater(len(main.PUNS), 0)
+    for pun in main.PUNS:
+      self.assertEqual(pun, pun.strip())
+      self.assertGreater(len(pun), 0)
+
+  def test_get_pun(self):
+    self.assertIn(main.get_pun(), main.PUNS)
 
 
 @mock.patch("main.get_pun", return_value="I'm reading a book about anti-gravity. It's impossible to put down!")
