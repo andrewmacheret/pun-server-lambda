@@ -33,7 +33,7 @@ jobs:
       id-token: write
     steps:
       - uses: actions/checkout@v7
-      - run: zip -j lambda.zip src/lambda/main.py
+      - run: zip -j lambda.zip src/lambda/main.py src/lambda/puns.txt
       - uses: aws-actions/configure-aws-credentials@v6
         with:
           role-to-assume: ${{ vars.AWS_ROLE_ARN }}

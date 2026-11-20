@@ -2,13 +2,17 @@
 
 [![License](https://img.shields.io/badge/license-MIT-lightgray.svg)](https://github.com/andrewmacheret/pun-server-lambda/blob/master/LICENSE.md)
 
-Random pun server! Jokes come from [icanhazdadjoke](https://icanhazdadjoke.com/).
+Random pun server! Each request returns a random line from [`src/lambda/puns.txt`](src/lambda/puns.txt).
 
 Returns `{"pun": "..."}` by default, or just the joke when called with `Accept: text/plain`.
 
+## Credits
+
+The puns come from [official_joke_api](https://github.com/15Dkatz/official_joke_api) by [David Katz](https://github.com/15Dkatz), used under the MIT License (see [`PUNS_LICENSE.md`](PUNS_LICENSE.md)). Each joke's setup and punchline were joined into one line, and duplicates were removed.
+
 ## Development
 
-Run tests with `cd src/lambda && python3 -m unittest` (needs Python 3.14). One test calls the real icanhazdadjoke API.
+Run tests with `cd src/lambda && python3 -m unittest` (needs Python 3.14). To add a pun, add a line to `puns.txt`.
 
 ## Deploy
 
