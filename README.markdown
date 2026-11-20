@@ -8,7 +8,14 @@ Returns `{"pun": "..."}` by default, or just the joke when called with `Accept: 
 
 ## Credits
 
-The puns come from [official_joke_api](https://github.com/15Dkatz/official_joke_api) by [David Katz](https://github.com/15Dkatz), used under the MIT License (see [`PUNS_LICENSE.md`](PUNS_LICENSE.md)). Each joke's setup and punchline were joined into one line, and duplicates were removed.
+The puns come from:
+
+- [official_joke_api](https://github.com/15Dkatz/official_joke_api) by [David Katz](https://github.com/15Dkatz), MIT License
+- [dadjokes](https://github.com/yesinteractive/dadjokes) by [Yes Interactive](https://github.com/yesinteractive), MIT License
+- [devpun](https://github.com/elijahmanor/devpun) by [Elijah Manor](https://github.com/elijahmanor), MIT License
+- [icanhazdadjoke](https://icanhazdadjoke.com/)
+
+The MIT license texts are in [`PUNS_LICENSE.md`](PUNS_LICENSE.md). Each joke's setup and punchline were joined into one line, and duplicates and near-duplicates were removed.
 
 ## Development
 
