@@ -1,6 +1,6 @@
 # Random pun server using Python and AWS Lambda
 
-[![License](https://img.shields.io/badge/license-MIT-lightgray.svg)](https://github.com/andrewmacheret/pun-server-lambda/blob/master/LICENSE.md)
+[![Test and deploy](https://github.com/andrewmacheret/pun-server-lambda/actions/workflows/deploy.yml/badge.svg)](https://github.com/andrewmacheret/pun-server-lambda/actions/workflows/deploy.yml) [![License](https://img.shields.io/badge/license-MIT-lightgray.svg)](https://github.com/andrewmacheret/pun-server-lambda/blob/master/LICENSE.md)
 
 Random pun server! Each request returns a random line from [`src/lambda/puns.txt`](src/lambda/puns.txt).
 
