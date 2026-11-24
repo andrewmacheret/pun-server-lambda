@@ -3,6 +3,9 @@ name: Test and deploy
 on:
   push:
     branches: [master]
+    paths-ignore:
+      - '**.md'
+      - '**.markdown'
   pull_request:
   workflow_dispatch:
 
