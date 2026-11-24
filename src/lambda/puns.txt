@@ -8,7 +8,6 @@ What do you call a singing Laptop? A Dell
 How many lips does a flower have? Tulips
 What kind of shoes does a thief wear? Sneakers
 What's the best time to go to the dentist? Tooth hurty.
-Knock knock. Who's there? A broken pencil. A broken pencil who? Never mind. It's pointless.
 Knock knock. Who's there? Cows go. Cows go who? No, cows go moo.
 Knock knock. Who's there? Little old lady. Little old lady who? I didn't know you could yodel!
 Why would a guitarist become a good programmer? He's adept at riffing in C#.
@@ -20,19 +19,14 @@ What do you call a laughing motorcycle? A Yamahahahaha.
 A termite walks into a bar and says... 'Where is the bar tended?'
 What does C.S. Lewis keep at the back of his wardrobe? Narnia business!
 A SQL query walks into a bar, walks up to two tables and asks... 'Can I join you?'
-How many programmers does it take to change a lightbulb? None, that's a hardware problem.
-If you put a million monkeys at a million keyboards, one of them will eventually write a Java program. The rest of them will write Perl.
 ['hip', 'hip'] (hip hip array)
-To understand what recursion is... You must first understand what recursion is
 There are 10 types of people in this world... Those who understand binary and those who don't
 What did the duck say when he bought lipstick? Put it on my bill
 What happens to a frog's car when it breaks down? It gets toad away
 Did you know the first French fries weren't cooked in France? They were cooked in Greece.
 Which song would an exception sing? Can't catch me - Avicii
-Knock knock. Who's there? Opportunity. That is impossible. Opportunity doesn’t come knocking twice!
 Why do Java programmers wear glasses? Because they don't C#.
 Why did the mushroom get invited to the party? Because he was a fungi.
-Do you know what the word 'was' was initially? Before was was was was was is.
 I'm reading a book about anti-gravity... It's impossible to put down
 If you're American when you go into the bathroom, and American when you come out, what are you when you're in there? European
 Want to hear a joke about a piece of paper? Never mind...it's tearable
@@ -50,10 +44,8 @@ Why did the invisible man turn down the job offer? He couldn't see himself doing
 How do you make holy water? You boil the hell out of it
 I had a dream that I was a muffler last night. I woke up exhausted!
 Why is Peter Pan always flying? Because he neverlands
-How do you check if a webpage is HTML5? Try it out on Internet Explorer
 What do you call a cow with no legs? Ground beef!
 I dropped a pear in my car this morning. You should drop another one, then you would have a pair.
-A user interface is like a joke. If you have to explain it then it is not that good.
 Knock knock. Who's there? Hatch. Hatch who? Bless you!
 What do you call sad coffee? Despresso.
 Why did the butcher work extra hours at the shop? To make ends meat.
@@ -66,15 +58,12 @@ I got hit in the head by a soda can, but it didn't hurt that much... It was a so
 I can't tell if I like this blender... It keeps giving me mixed results.
 I couldn't get a reservation at the library... They were fully booked.
 I was gonna tell you a joke about UDP... ...but you might not get it.
-The punchline often arrives before the set-up. Do you know the problem with UDP jokes?
 Why do C# and Java developers keep breaking their keyboards? Because they use a strongly typed language.
 What do you give to a lemon in need? Lemonaid.
 Never take advice from electrons. They are always negative.
 Hey, dad, did you get a haircut? No, I got them all cut.
-What time is it? I don't know... it keeps changing.
 A weasel walks into a bar. The bartender says, "Wow, I've never served a weasel before. What can I get for you?" Pop goes the weasel!
 Bad at golf? Join the club.
-Can a kangaroo jump higher than the Empire State Building? Of course. The Empire State Building can't jump.
 Can February march? No, but April may.
 Can I watch the TV? Yes, but don’t turn it on.
 Dad, can you put my shoes on? I don't think they'll fit me.
@@ -118,8 +107,6 @@ How do you fix a broken pizza? With tomato paste.
 How do you fix a damaged jack-o-lantern? You use a pumpkin patch.
 How do you get a baby alien to sleep? You rocket.
 How do you get two whales in a car? Start in England and drive West.
-How do you know if there’s an elephant under your bed? Your head hits the ceiling!
-How do you make a hankie dance? Put a little boogie in it.
 How good are you at PowerPoint? I Excel at it.
 How do you organize a space party? You planet.
 How do you steal a coat? You jacket.
@@ -129,11 +116,7 @@ How does a French skeleton say hello? Bone-jour.
 How does a penguin build its house? Igloos it together.
 How does a scientist freshen their breath? With experi-mints!
 How does the moon cut his hair? Eclipse it.
-How many apples grow on a tree? All of them!
 How many bones are in the human hand? A handful of them.
-How many hipsters does it take to change a lightbulb? Oh, it's a really obscure number. You've probably never heard of it.
-How many kids with ADD does it take to change a lightbulb? Let's go ride bikes!
-How many optometrists does it take to change a light bulb? 1 or 2? 1... or 2?
 How many seconds are in a year? 12. January 2nd, February 2nd, March 2nd, April 2nd.... etc
 How many tickles does it take to tickle an octopus? Ten-tickles!
 How was the snow globe feeling after the storm? A little shaken.
@@ -156,7 +139,6 @@ What did one plate say to the other plate? Dinner is on me!
 What did one snowman say to the other snowman? Do you smell carrot?
 What did one wall say to the other wall? I'll meet you at the corner!
 What did Romans use to cut pizza before the rolling cutter was invented? Lil Caesars
-What did the 0 say to the 8? Nice belt.
 What did the beaver say to the tree? It's been nice gnawing you.
 What did the big flower say to the littler flower? Hi, bud!
 What did the Buffalo say to his little boy when he dropped him off at school? Bison.
@@ -170,19 +152,16 @@ What did the left eye say to the right eye? Between us, something smells!
 What did the mountain climber name his son? Cliff.
 What did the ocean say to the beach? Thanks for all the sediment.
 What did the ocean say to the shore? Nothing, it just waved.
-Why don't you find hippopotamuses hiding in trees? They're really good at it.
 What did the pirate say on his 80th birthday? Aye Matey!
 What did the red light say to the green light? Don't look at me, I'm changing!
 What did the scarf say to the hat? You go on ahead, I am going to hang around a bit longer.
 What did the shy pebble wish for? That she was a little boulder.
 What did the Zen Buddhist say to the hotdog vendor? Make me one with everything.
 What do birds give out on Halloween? Tweets.
-What do I look like? A JOKE MACHINE!?
 What do prisoners use to call each other? Cell phones.
 What do vegetarian zombies eat? Grrrrrainnnnnssss.
 What do you call a bear with no teeth? A gummy bear!
 What do you call a bee that lives in America? A USB.
-What do you call a boomerang that won't come back? A stick.
 What do you call a careful wolf? Aware wolf.
 What do you call a cow on a trampoline? A milk shake!
 What do you call a cow with two legs? Lean beef.
@@ -204,13 +183,11 @@ What do you call a nervous javelin thrower? Shakespeare.
 What do you call a pig that knows karate? A pork chop!
 What do you call a pig with three eyes? Piiig
 What do you call a pile of cats? A Meowtain.
-What do you call a sheep with no legs? A cloud.
 What do you call a troublesome Canadian high schooler? A poutine.
 What do you call an alligator in a vest? An in-vest-igator!
 What do you call an Argentinian with a rubber toe? Roberto
 What do you call an eagle who can play the piano? Talonted!
 What do you call an elephant that doesn’t matter? An irrelephant.
-What do you call an old snowman? Water.
 What do you call cheese by itself? Provolone.
 What do you call corn that joins the army? Kernel.
 What do you call someone with no nose? Nobody knows.
@@ -226,14 +203,9 @@ What does a pirate pay for his corn? A buccaneer!
 What does an angry pepper do? It gets jalapeño face.
 What happens when you anger a brain surgeon? They will give you a piece of your mind.
 What has ears but cannot hear? A field of corn.
-What is a centipede's favorite Beatle song? I want to hold your hand, hand, hand, hand...
 What is a tornado's favorite game to play? Twister!
 What is a vampire's favorite fruit? A blood orange.
 What is a witch's favorite subject in school? Spelling!
-What is red and smells like blue paint? Red paint!
-What is the difference between ignorance and apathy? I don't know and I don't care.
-What is the hardest part about sky diving? The ground.
-What is the leading cause of dry skin? Towels
 What is the least spoken language in the world? Sign Language
 What is the tallest building in the world? The library, it’s got the most stories!
 What is this movie about? It is about 2 hours long.
@@ -248,13 +220,11 @@ What kind of tree fits in your hand? A palm tree!
 What lies at the bottom of the ocean and twitches? A nervous wreck.
 What musical instrument is found in the bathroom? A tuba toothpaste.
 What type of music do balloons hate? Pop music!
-What was a more important invention than the first telephone? The second one.
 What was the pumpkin’s favorite sport? Squash.
 What's black and white and read all over? The newspaper.
 What's blue and not very heavy? Light blue.
 What's brown and sticky? A stick.
 What's orange and sounds like a parrot? A Carrot.
-What's red and bad for your teeth? A Brick.
 What's the best thing about elevator jokes? They work on so many levels.
 What's the difference between a guitar and a fish? You can tune a guitar but you can't "tuna fish"!
 What's the difference between a hippo and a zippo? One is really heavy, the other is a little lighter.
@@ -264,7 +234,6 @@ What's the worst thing about ancient history class? The teachers tend to Babylon
 What’s brown and sounds like a bell? Dung!
 What’s E.T. short for? He’s only got little legs.
 What’s the advantage of living in Switzerland? Well, the flag is a big plus.
-What’s the difference between an African elephant and an Indian elephant? About 5000 miles.
 When do doctors get angry? When they run out of patients.
 When does a joke become a dad joke? When it becomes apparent.
 When is a door not a door? When it's ajar.
@@ -280,8 +249,6 @@ Where does Fonzie like to go for lunch? Chick-Fil-Eyyyyyyyy.
 Where does Napoleon keep his armies? In his sleevies.
 Where was the Declaration of Independence signed? At the bottom!
 Where’s the bin? I haven’t been anywhere!
-Which side of the chicken has more feathers? The outside.
-Who did the wizard marry? His ghoul-friend
 Who is the coolest Doctor in the hospital? The hip Doctor!
 Why are fish easy to weigh? Because they have their own scales.
 Why are fish so smart? Because they live in schools!
@@ -307,7 +274,6 @@ Why did the coffee file a police report? It got mugged.
 Why did the cookie cry? Because his mother was a wafer so long
 Why did the cookie cry? It was feeling crumby.
 Why did the cowboy have a wiener dog? Somebody told him to get a long little doggy.
-Why did the fireman wear red, white, and blue suspenders? To hold his pants up.
 Why did the girl smear peanut butter on the road? To go with the traffic jam.
 Why did the half blind man fall in the well? Because he couldn't see that well!
 Why did the house go to the doctor? It was having window panes.
@@ -327,31 +293,22 @@ Why didn’t the skeleton cross the road? Because he had no guts.
 Why do bananas have to put on sunscreen before they go to the beach? Because they might peel!
 Why do bears have hairy coats? Fur protection.
 Why do bees have sticky hair? Because they use honey combs!
-Why do bees hum? Because they don't know the words.
-Why do birds fly south for the winter? Because it's too far to walk.
 Why do choirs keep buckets handy? So they can carry their tune
 Why do crabs never give to charity? Because they’re shellfish.
 Why do ducks make great detectives? They always quack the case.
 Why do mathematicians hate the U.S.? Because it's indivisible.
 Why do pirates not know the alphabet? They always get stuck at "C".
-Why do pumpkins sit on people’s porches? They have no hands to knock on the door.
-Why do scuba divers fall backwards into the water? Because if they fell forwards they’d still be in the boat.
 Why do trees seem suspicious on sunny days? Dunno, they're just a bit shady.
 Why do valley girls hang out in odd numbered groups? Because they can't even.
 Why do wizards clean their teeth three times a day? To prevent bat breath!
-Why do you never see elephants hiding in trees? Because they're so good at it.
 Why does a chicken coop only have two doors? Because if it had four doors it would be a chicken sedan.
 Why does a Moon-rock taste better than an Earth-rock? Because it's a little meteor.
 Why does it take longer to get from 1st to 2nd base, than it does to get from 2nd to 3rd base? Because there’s a Shortstop in between!
 Why does Superman get invited to dinners? Because he is a Supperhero.
 Why does Waldo only wear stripes? Because he doesn't want to be spotted.
-Knock-knock. A race condition. Who is there?
 What's the best part about TCP jokes? I get to keep telling them until you get them.
-A programmer puts two glasses on his bedside table before going to sleep. A full one, in case he gets thirsty, and an empty one, in case he doesn’t.
 Two guys walk into a bar . . . The first guy says "Ouch!" and the second says "Yeah, I didn't see it either."
 What did the router say to the doctor? It hurts when IP.
-An IPv6 packet is walking out of the house. He goes nowhere.
-A DHCP packet walks into a bar and asks for a beer. Bartender says, "Here, but I’ll need that back in an hour!"
 3 SQL statements walk into a NoSQL bar. Soon, they walk out. They couldn't find a table.
 What’s the object-oriented way to become wealthy? Inheritance.
 What do you call a bee that can't make up its mind? A maybe.
@@ -366,7 +323,6 @@ What is the most used language in programming? Profanity.
 Why do programmers always get Christmas and Halloween mixed up? Because DEC 25 = OCT 31
 What goes after USA? USB.
 Why don't eggs tell jokes? Because they would crack each other up.
-How do you make the number one disappear? Add the letter G and it’s “gone”!
 My older brother always tore the last pages of my comic books, and never told me why. I had to draw my own conclusions.
 The Sergeant-Major growled at the young soldier: I didn’t see you at camouflage training this morning. Thank you very much, sir.
 Why did the kid throw the watch out the window? So time would fly.
@@ -375,26 +331,20 @@ Why did the rooster cross the road? He heard that the chickens at KFC were prett
 Did you hear about the Viking who was reincarnated? He was Bjorn again
 What does the mermaid wear to math class? Algae-bra.
 Did you hear about the crime in the parking garage? It was wrong on so many levels.
-Hey, wanna hear a joke? Parsing HTML with regex.
 Why didn't the skeleton go to prom? Because it had nobody.
 A grocery store cashier asked if I would like my milk in a bag. I told her 'No, thanks. The carton works fine.'
-99.9% of the people are dumb! Fortunately I belong to the remaining 1%
 I just got fired from my job at the keyboard factory. They told me I wasn't putting in enough shifts.
 You see, mountains aren't just funny. They are hill areas.
 What do elves post on Social Media? Elf-ies.
 While I was sleeping my friends decided to write math equations on me. You should have seen the expression on my face when I woke up.
 Due to complaints, Hawaii passed a law where you're not allowed to laugh above a certain decibel. You can only use a low ha.
 Why are football stadiums so cool? Because every seat has a fan in it.
-How do you generate a random string? Put a Windows user in front of Vim and tell them to exit.
 Why did the functions stop calling each other? Because they had constant arguments.
 Why did the private classes break up? Because they never saw each other.
-How many React developers does it take to change a lightbulb? None, they prefer dark mode.
-Why don't React developers like nature? They prefer the virtual DOM.
 What do you get when you cross a React developer with a mathematician? A function component.
 Why did the developer go broke buying Bitcoin? He kept calling it bytecoin and didn't get any.
 Why did the programmer go to art school? He wanted to learn how to code outside the box.
 Why did the programmer's wife leave him? He didn't know how to commit.
-Why do programmers prefer dark chocolate? Because it's bitter like their code.
 Why did the programmer go broke? He used up all his cache.
 Why was the JavaScript developer sad? He didn't know how to null his feelings.
 Why did the math book look sad? Because it had too many problems.
@@ -459,8 +409,6 @@ What’s an astronaut’s favorite part of a computer? The space bar.
 Why was the robot so tired after his road trip? He had a hard drive.
 Why did the computer have no money left? Someone cleaned out its cache!
 I'm not anti-social. I'm just not user friendly.
-What's the difference between a computer salesman and a used-car salesman? The used-car salesman KNOWS when he's lying.
-If at first you don't succeed... call it version 1.0
 Why did Microsoft PowerPoint cross the road? To get to the other slide!
 What did the computer do at lunchtime? Had a byte!
 Why did the computer keep sneezing? It had a virus!
@@ -468,7 +416,6 @@ What did one toilet say to the other? You look a bit flushed.
 Why did the picture go to jail? Because it was framed.
 What do you call a boy named Lee that no one talks to? Lonely
 What part of the car is the laziest? The wheels, because they are always tired!
-What's the difference between a TV and a newspaper? Ever tried swatting a fly with a TV?
 What did one elevator say to the other elevator? I think I'm coming down with something!
 Why did Mickey Mouse take a trip into space? He wanted to find Pluto!
 Why do you go to bed every night? Because the bed won't come to you!
@@ -483,7 +430,6 @@ Why did the coach go to the bank? To get his quarterback.
 How do celebrities stay cool? They have many fans.
 What's the most depressing day of the week? Sadder day.
 Dogs can’t operate MRI machines, but catscan.
-I was going to tell a time-traveling joke but you guys didn’t like it.
 Stop looking for the perfect match. Instead, look for a lighter.
 I told my doctor I heard buzzing but he said it’s just a bug going around.
 What kind of car does a sheep like to drive? A Lamborghini.
@@ -501,7 +447,6 @@ Which U.S. state is known for its especially small soft drinks? Minnesota.
 What do sprinters eat before a race? Nothing—they fast.
 I told my girlfriend she drew on her eyebrows too high. She seemed surprised.
 What do you call a fibbing cat? A lion.
-Why shouldn’t you write with a broken pencil? Because it’s pointless.
 I like telling Dad jokes… sometimes he laughs.
 How do you weigh a millennial? In Instagrams.
 What’s the most patriotic sport? Flag football.
@@ -605,9 +550,7 @@ Why was the belt stressed out? Because it was under a lot of pressure.
 What’s a cat’s favorite color? Purr-ple.
 How do ghosts like their coffee? With scream and sugar.
 What do you call a monkey that loves potato chips? A chipmunk.
-Why was the broom late? Because it swept in.
 Why do cows make great musicians? Because they have perfect moosic timing.
-Why do clouds never get lost? Because they follow the wind.
 How do you comfort a JavaScript bug? You console it.
 Why did the child component have such great self-esteem? Because its parent kept giving it props!
 Why did the functional component feel lost? Because it didn't know what state it was in!
@@ -624,7 +567,6 @@ Two JavaScript developers walked into the variable bar. Ouch!
 Why did Jason cover himself with bubble wrap? Because he wanted to make a cross-domain JSONP request.
 Why did the software company hire drama majors from Starbucks? Because they needed JavaScript experts!
 Why did the CoffeeScript developer keep getting lost? Because he couldn't find his source without a map!
-What do you call __proto__? Dunder proto.
 How did the doctor revive the developer? The dev wasn't responsive so the doc picked him up by his bootstraps!
 Why did the C# developer fall asleep? Because he didn't like Java.
 Why did the JavaScript boxer go to the chiropractor? Because his backbone was angular from a knockout and required attention!
@@ -655,7 +597,6 @@ Wife: Honey I’m pregnant. Me: Well…. what do we do now? Wife: Well, I guess 
 Have you heard the story about the magic tractor? It drove down the road and turned into a field.
 When will the little snake arrive? I don't know but he won't be long...
 Why was Pavlov's beard so soft? Because he conditioned it.
-Hear about the new restaurant called Karma? There’s no menu: You get what you deserve.
 It was so cold yesterday my computer froze. My own fault though, I left too many windows open.
 Man, I really love my furniture... me and my recliner go way back.
 My son is studying to be a surgeon, I just hope he makes the cut.
@@ -689,9 +630,6 @@ I used to be addicted to soap, but I'm clean now.
 Why did Mozart kill all his chickens? Because when he asked them who the best composer was, they'd all say "Bach bach bach!"
 This furniture store keeps emailing me, all I wanted was a one night stand!
 My sister bet me $15 that I couldn't build a car out of spaghetti. You should have seen the look on her face as I drove pasta.
-My boss told me to have a good day... so I went home.
-I just read a book about Stockholm syndrome. It was pretty bad at first, but by the end I liked it.
-If at first you don't succeed, sky diving is not for you!
 I'd like to start a diet, but I've got too much on my plate right now.
 What did the drummer name her twin daughters? Anna One, Anna Two...
 What kind of music do mummies like? Rap.
@@ -711,8 +649,6 @@ Recent survey revealed 6 out of 7 dwarfs aren't happy.
 I've been trying to come up with a dad joke about momentum . . . but I just can't seem to get it going.
 ‘Put the cat out’ … ‘I didn’t realize it was on fire’
 Why don't skeletons ride roller coasters? They don't have the stomach for it.
-Every night at 11:11, I make a wish that someone will come fix my broken clock.
-Two muffins were sitting in an oven, and the first looks over to the second, and says, “man, it’s really hot in here”. The second looks over at the first with a surprised look, and answers, “WHOA, a talking muffin!”
 Why don't sharks eat clowns? Because they taste funny.
 Just read a few facts about frogs. They were ribbiting.
 Two satellites decided to get married. The wedding wasn't much, but the reception was incredible.
@@ -727,14 +663,12 @@ In my career as a lumberjack I cut down exactly 52,487 trees. I know because I k
 A magician was driving down the street and then he turned into a driveway.
 If you walk into a forest and cut down a tree, but the tree doesn't understand why you cut it down, do you think it's stumped?
 What is the best way to carve? Whittle by whittle.
-What's a ninja's favorite type of shoes? Sneakers!
 It was raining cats and dogs the other day. I almost stepped in a poodle.
 I was wondering why the frisbee was getting bigger, then it hit me.
 A farmer had 297 cows, when he rounded them up, he found he had 300
 I’ve got this disease where I can’t stop making airport puns. The doctor says it’s terminal.
 Somebody stole my Microsoft Office and they're going to pay - you have my Word.
 I couldn't figure out how the seat belt worked. Then it just clicked.
-What did the green grape say to the purple grape? BREATHE!!
 Two parrots are sitting on a perch. One turns to the other and asks, "Do you smell fish?"
 I had a pair of racing snails. I removed their shells to make them more aerodynamic, but they became sluggish.
 I tried to milk a cow today, but was unsuccessful. Udder failure.
@@ -751,7 +685,6 @@ If I could name myself after any Egyptian god, I'd be Set.
 Why doesn't the Chimney-Sweep call out sick from work? Because he's used to working with a flue.
 It’s hard to explain puns to kleptomaniacs, because they take everything literally.
 It's difficult to say what my wife does, she sells sea shells by the sea shore.
-Doctor: Do you want to hear the good news or the bad news? Patient: Good news please. Doctor: We're naming a disease after you.
 Atheism is a non-prophet organisation.
 I tried to write a chemistry joke, but could never get a reaction.
 I gave my friend 10 puns hoping that one of them would make him laugh. Sadly, no pun in ten did.
@@ -770,7 +703,6 @@ Archaeology really is a career in ruins.
 Have you ever seen fruit preserves being made? It's jarring.
 I was going to get a brain transplant, but I changed my mind
 Have you heard about the owl sanctuary job opening? It’s all night shifts but they’re all a hoot over there.
-Animal Fact #25: Most bobcats are not named Bob.
 What did the piece of bread say to the knife? Butter me up.
 They say Dodger Stadium can hold up to fifty-six thousand people, but that is just a ballpark figure.
 Some people say that I never got over my obsession with Phil Collins. But take a look at me now.
@@ -788,7 +720,6 @@ People are making apocalypse jokes like there’s no tomorrow.
 What’s the longest word in the dictionary? Smiles. Because there’s a mile between the two S’s.
 I just broke my guitar. It's okay, I won't fret
 It's only a murder of crows if there's probable caws.
-I invented a new word! Plagiarism!
 I never wanted to believe that my Dad was stealing from his job as a road worker. But when I got home, all the signs were there.
 I applied to be a doorman but didn't get the job due to lack of experience. That surprised me, I thought it was an entry level position.
 I knew a guy who collected candy canes, they were all in mint condition
@@ -815,10 +746,8 @@ Two peanuts were walking down the street. One was a salted.
 Don’t interrupt someone working intently on a puzzle. Chances are, you’ll hear some crosswords.
 Today a man knocked on my door and asked for a small donation towards the local swimming pool. I gave him a glass of water.
 Why did the clown have neck pain? - Because he slept funny
-Did you hear about the campsite that got visited by Bigfoot? It got in tents.
 I saw a documentary on TV last night about how they put ships together. It was riveting.
 Yesterday I confused the words "jacuzzi" and "yakuza". Now I'm in hot water with the Japanese mafia.
-I used to think I was indecisive, but now I'm not sure.
 Every morning when I go out, I get hit by bicycle. Every morning! It's a vicious cycle.
 I fear for the calendar, its days are numbered.
 I'm glad I know sign language, it's pretty handy.
@@ -831,12 +760,10 @@ Where do cats write notes? Scratch Paper!
 Why is the new Kindle screen textured to look like paper? So you feel write at home.
 When my wife told me to stop impersonating a flamingo, I had to put my foot down.
 No matter how kind you are, German children are kinder.
-When I left school, I passed every one of my exams with the exception of Greek Mythology. It always was my Achilles elbow.
 What did Yoda say when he saw himself in 4K? "HDMI"
 Me and my mates are in a band called Duvet. We're a cover band.
 Nurse: Doctor, there's a patient that says he's invisible. Doctor: Well, tell him I can't see him right now!
 What do you do when your bunny gets wet? You get your hare dryer.
-There are two types of people in this world, those who can extrapolate from incomplete data...
 In the news a courtroom artist was arrested today, I'm not surprised, he always seemed sketchy.
 I wanted to be a tailor but I didn't suit the job
 What do you call a criminal going down the stairs? Condescending
@@ -860,9 +787,7 @@ How do you teach a kid to climb stairs? There is a step by step guide.
 Where do owls go to buy their baby clothes? The owlet malls.
 Someone broke into my house last night and stole my limbo trophy. How low can you go?
 I was going to learn how to juggle, but I didn't have the balls.
-The Swiss must've been pretty confident in their chances of victory if they included a corkscrew in their army knife.
 Why was the strawberry sad? Its parents were in a jam.
-I wear a stethoscope so that in a medical emergency I can teach people a valuable lesson about assumptions.
 Every machine in the coin factory broke down all of a sudden without explanation. It just doesn’t make any cents.
 When you have a bladder infection, urine trouble.
 How do you make Lady Gaga cry? Poker face.
@@ -870,7 +795,6 @@ I was in an 80's band called The Prevention. We were better than the cure.
 People saying 'boo!' to their friends has risen by 85% in the last year.... That's a frightening statistic.
 Geology rocks, but Geography is where it's at!
 Why does Han Solo like gum? It's chewy!
-I was at the library and asked if they have any books on "paranoia", the librarian replied, "yes, they are right behind you"
 The urge to sing the Lion King song is just a whim away.
 I needed a password eight characters long so I picked Snow White and the Seven Dwarfs.
 I used to work at a stationery store. But, I didn't feel like I was going anywhere. So, I got a job at a travel agency. Now, I know I'll be going places.
@@ -881,10 +805,8 @@ The first time I got a universal remote control I thought to myself, "This chang
 Why is the ocean always blue? Because the shore never waves back.
 Pie is $2.50 in Jamaica and $3.00 in The Bahamas. These are the pie-rates of the Caribbean.
 What do you call a fish wearing a bowtie? Sofishticated.
-What is worse than finding a worm in your apple? Finding half a worm in your apple.
 "I'm sorry." "Hi sorry, I'm dad"
 My friend keeps telling me "Cheer up. You aren't stuck in a deep hole in the ground, filled with water." I know he means well.
-I ordered a chicken and an egg from Amazon. I'll let you know.
 There's not really any training for garbagemen. They just pick things up as they go.
 I was shocked when I was diagnosed as colorblind... It came out of the purple.
 I’ve deleted the phone numbers of all the Germans I know from my mobile phone. Now it’s Hans free.
@@ -895,18 +817,14 @@ Why do cows wear bells? Because their horns don't work.
 This is my step ladder. I never knew my real ladder.
 I was thinking about moving to Moscow but there is no point Russian into things.
 A man walks into a bar and orders helicopter flavor chips. The barman replies “sorry mate we only do plain”
-It's been months since I bought the book "how to scam people online". It still hasn't turned up.
 Why is it a bad idea to iron your four-leaf clover? Cause you shouldn't press your luck.
 I got an A on my origami assignment when I turned my paper into my teacher
 I accidentally drank a bottle of invisible ink. Now I’m in hospital, waiting to be seen.
-My New Years resolution is to stop leaving things so late.
 Americans can't switch from pounds to kilograms overnight. That would cause mass confusion.
-An apple a day keeps the bullies away. If you throw it hard enough.
 Why is no one friends with Dracula? Because he's a pain in the neck.
 A man walked in to a bar with some asphalt on his arm. He said “Two beers please, one for me and one for the road.”
 I’ll tell you something about German sausages, they’re the wurst
 Where did Captain Hook get his hook? From a second hand store.
-I got fired from the transmission factory, turns out I didn't put on enough shifts...
 I went to the doctor today and he told me I had type A blood but it was a type O.
 Why was the big cat disqualified from the race? Because it was a cheetah.
 We all know where the Big Apple is but does anyone know where the Minneapolis?
@@ -915,14 +833,12 @@ I thought about going on an all-almond diet. But that's just nuts.
 I don’t play soccer because I enjoy the sport. I’m just doing it for kicks.
 People are shocked to discover I have a police record but I love their greatest hits!
 Today a girl said she recognized me from vegetarian club, but I’m sure I’ve never met herbivore.
-They laughed when I said I wanted to be a comedian – they’re not laughing now.
 Don't buy flowers at a monastery. Because only you can prevent florist friars.
 Hostess: Do you have a preference of where you sit? Dad: Down.
 The biggest knight at King Arthur's round table was Sir Cumference. He acquired his size from eating too much pi.
 To the person who stole my anti-depressant pills: I hope you're happy now.
 I saw my husband trip and fall while carrying a laundry basket full of ironed clothes. I watched it all unfold.
 I made a playlist for hiking. It has music from Peanuts, The Cranberries, and Eminem. I call it my Trail Mix.
-A skeleton walks into a bar and says, "I need a beer and a mop."
 How do robots eat guacamole? With computer chips.
 Today, my son asked "Can I have a book mark?" and I burst into tears. 11 years old and he still doesn't know my name is Brian.
 What has a bed that you can’t sleep in? A river.
@@ -940,12 +856,10 @@ A dad washes his car with his son. But after a while, the son says, "why can't y
 Doctor, you've got to help me, I'm addicted to Twitter. Doctor: I don't follow you.
 Why do we tell actors to “break a leg?” Because every play has a cast.
 I broke my finger at work today, on the other hand I'm completely fine.
-I went to a book store and asked the saleswoman where the Self Help section was, she said if she told me it would defeat the purpose.
 People who don't eat gluten are really going against the grain.
 Sore throats are a pain in the neck!
 I think circles are pointless.
 A ghost walks into a bar and asks for a glass of vodka but the bartender says, “sorry we don’t serve spirits”
-You know what they say about cliffhangers...
 Someone asked me, what's the ninth letter of the alphabet? It was a complete guess, but I was right.
 Feeling pretty proud of myself. The Sesame Street puzzle I bought said 3-5 years, but I finished it in 18 months.
 I tried taking some high resolution photos of local farmland, but they all turned out a bit grainy.
@@ -958,7 +872,6 @@ I knew I shouldn’t have eaten that seafood. Now I’m feeling a little… eel.
 Past, present, and future walked into a bar.... It was tense.
 My boss told me that he was going to fire the person with the worst posture. I have a hunch, it might be me.
 Without geometry life is pointless.
-“Hold on, I have something in my shoe” “I’m pretty sure it’s a foot”
 Have you heard about the film "Constipation", you probably haven't because it's not out yet.
 Did you know Albert Einstein was a real person? All this time, I thought he was just a theoretical physicist!
 I hate perforated lines, they're tearable.
@@ -973,11 +886,9 @@ Some people say that comedians who tell one too many light bulb jokes soon burn 
 A bartender broke up with her boyfriend, but he kept asking her for another shot.
 I used to work for an origami company but they folded.
 There’s a new type of broom out, it’s sweeping the nation.
-I just wrote a book on reverse psychology. Do not read it!
 Parallel lines have so much in common. It’s a shame they’ll never meet.
 The best time on a clock is 6:30--hands down.
 What do you call a magician who has lost their magic? Ian.
-Why do fish live in salt water? Because pepper makes them sneeze!
 A man tried to sell me a coffin today. I told him that's the last thing I need.
 It doesn't matter how much you push the envelope. It will still be stationary.
 Wife told me to take the spider out instead of killing it... We had some drinks, cool guy, wants to be a web developer.
@@ -987,7 +898,6 @@ Cosmetic surgery used to be such a taboo subject. Now you can talk about Botox a
 At the boxing match, the dad got into the popcorn line and the line for hot dogs, but he wanted to stay out of the punchline.
 I asked a Frenchman if he played video games. He said "Wii"
 So, I heard this pun about cows, but it’s kinda offensive so I won’t say it. I don’t want there to be any beef between us.
-What do Alexander the Great and Winnie the Pooh have in common? Same middle name.
 Shout out to my grandma, that's the only way she can hear.
 Why was the broom late for the meeting? He overswept.
 I went on a date last night with a girl from the zoo. It was great. She’s a keeper.
@@ -998,7 +908,6 @@ Why was Santa's little helper feeling depressed? Because he has low elf esteem.
 If two vegans are having an argument, is it still considered beef?
 My sea sickness comes in waves.
 For Valentine's day, I decided to get my wife some beads for an abacus. It's the little things that count.
-My new thesaurus is terrible. In fact, it's so bad, I'd say it's terrible.
 Camping is intense.
 Dad died because he couldn't remember his blood type. I will never forget his last words. Be positive.
 I’m on a whiskey diet. I’ve lost three days already.
@@ -1012,7 +921,6 @@ To the guy who invented zero... thanks for nothing.
 A butcher accidentally backed into his meat grinder and got a little behind in his work that day.
 What do you call a beehive without the b's? An eehive.
 Two guys walked into a bar, the third one ducked.
-I really want to buy one of those supermarket checkout dividers, but the cashier keeps putting it back.
 A horse walks into a bar. The bartender says "Hey." The horse says "Sure."
 What's the difference between a poorly dressed man on a tricycle and a well dressed man on a bicycle? Attire.
 Why are giraffes so slow to apologize? Because it takes them a long time to swallow their pride.
@@ -1022,6 +930,5 @@ I have the heart of a lion... and a lifetime ban from the San Diego Zoo.
 What do you call a guy lying on your doorstep? Matt.
 I met this girl on a dating site and, I don't know, we just clicked.
 What did the calculator say to the student? You can count on me.
-What do you call a gorilla wearing headphones? Anything you'd like, it can't hear you.
 Have you heard about corduroy pillows? They're making headlines!
 What do you call a fish with no eyes? A fsh.
