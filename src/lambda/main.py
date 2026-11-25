@@ -7,6 +7,8 @@ PUNS = PUNS_FILE.read_text(encoding="utf-8").splitlines()
 
 
 def lambda_handler(event, context):
+  if event.get("resource") == "/healthcheck":
+    return healthcheck()
   try:
     body = get_pun()
   except Exception as ex:
@@ -24,6 +26,17 @@ def lambda_handler(event, context):
     "body": body,
     "headers": {"Content-Type": contentType, "Access-Control-Allow-Origin": "*"},
     "statusCode": 200
+  }
+
+
+def healthcheck():
+  """GET /healthcheck, for the daily canary (github.com/andrewmacheret/canary)."""
+  ok = len(PUNS) > 0
+  checks = [{"name": "Jokes", "ok": ok, "detail": f"{len(PUNS)} jokes loaded"}]
+  return {
+    "body": json.dumps({"status": "ok" if ok else "fail", "checks": checks}),
+    "headers": {"Content-Type": "application/json", "Access-Control-Allow-Origin": "*", "Cache-Control": "no-store"},
+    "statusCode": 200 if ok else 503
   }
 
 

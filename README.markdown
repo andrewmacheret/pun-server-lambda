@@ -1,6 +1,6 @@
 # Random pun server using Python and AWS Lambda
 
-[![Test and deploy](https://github.com/andrewmacheret/pun-server-lambda/actions/workflows/deploy.yml/badge.svg)](https://github.com/andrewmacheret/pun-server-lambda/actions/workflows/deploy.yml) [![License](https://img.shields.io/badge/license-MIT-lightgray.svg)](https://github.com/andrewmacheret/pun-server-lambda/blob/master/LICENSE.md)
+[![Test and deploy](https://github.com/andrewmacheret/pun-server-lambda/actions/workflows/deploy.yml/badge.svg)](https://github.com/andrewmacheret/pun-server-lambda/actions/workflows/deploy.yml) [![Canary](https://github.com/andrewmacheret/pun-server-lambda/actions/workflows/canary.yml/badge.svg)](https://github.com/andrewmacheret/pun-server-lambda/actions/workflows/canary.yml) [![License](https://img.shields.io/badge/license-MIT-lightgray.svg)](https://github.com/andrewmacheret/pun-server-lambda/blob/master/LICENSE.md)
 
 Random pun server! Each request returns a random line from [`src/lambda/puns.txt`](src/lambda/puns.txt).
 
@@ -20,6 +20,10 @@ The MIT license texts are in [`PUNS_LICENSE.md`](PUNS_LICENSE.md). Each joke's s
 ## Development
 
 Run tests with `cd src/lambda && python3 -m unittest` (needs Python 3.14). To add a pun, add a line to `puns.txt`.
+
+## Health check
+
+[`/healthcheck`](https://pun.andrewmacheret.com/healthcheck) makes sure the jokes loaded. The Canary workflow (`.github/workflows/canary.yml`) checks it once a day, started by [andrewmacheret/canary](https://github.com/andrewmacheret/canary).
 
 ## Deploy
 

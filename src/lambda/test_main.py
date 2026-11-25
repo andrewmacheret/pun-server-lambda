@@ -57,6 +57,21 @@ class TestHandler(unittest.TestCase):
     self.assertEqual(response["headers"], JSON_HEADERS)
 
 
+class TestHealthcheck(unittest.TestCase):
+  def test_ok(self):
+    response = main.lambda_handler({"resource": "/healthcheck"}, {})
+    self.assertEqual(response["statusCode"], 200)
+    body = json.loads(response["body"])
+    self.assertEqual(body["status"], "ok")
+    self.assertEqual(body["checks"][0]["name"], "Jokes")
+
+  @mock.patch("main.PUNS", [])
+  def test_no_jokes(self):
+    response = main.lambda_handler({"resource": "/healthcheck"}, {})
+    self.assertEqual(response["statusCode"], 503)
+    self.assertEqual(json.loads(response["body"])["status"], "fail")
+
+
 class TestHandlerError(unittest.TestCase):
   @mock.patch("main.get_pun", side_effect=Exception("boom"))
   def test_error(self, _):
