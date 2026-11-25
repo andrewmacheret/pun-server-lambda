@@ -23,7 +23,7 @@ Run tests with `cd src/lambda && python3 -m unittest` (needs Python 3.14). To ad
 
 ## Health check
 
-[`/healthcheck`](https://pun.andrewmacheret.com/healthcheck) makes sure the jokes loaded. The Canary workflow (`.github/workflows/canary.yml`) checks it once a day, started by [andrewmacheret/canary](https://github.com/andrewmacheret/canary).
+Once a day, the Canary workflow (`.github/workflows/canary.yml`) checks that the API is up and its jokes loaded. It's started by [andrewmacheret/canary](https://github.com/andrewmacheret/canary).
 
 ## Deploy
 
