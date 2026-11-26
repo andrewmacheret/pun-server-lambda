@@ -46,7 +46,7 @@ jobs:
       - name: Update runtime and settings
         run: |
           aws lambda update-function-configuration --function-name "$FUNCTION_NAME" \
-            --runtime "$RUNTIME" --handler main.lambda_handler --timeout 3 --memory-size 128 \
+            --runtime "$RUNTIME" --handler main.lambda_handler --timeout 3 --memory-size 512 \
             --output text --query LastUpdateStatus
           aws lambda wait function-updated --function-name "$FUNCTION_NAME"
       - name: Update code
