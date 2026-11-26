@@ -29,4 +29,4 @@ Once a day, the Canary workflow (`.github/workflows/canary.yml`) checks that the
 
 Pushes to `master` run the tests and deploy to the `Pun` AWS Lambda function through GitHub Actions (see `.github/workflows/deploy.yml`). To redeploy without a code change, use "Run workflow" on the Actions tab.
 
-The workflow signs in to AWS with GitHub OIDC using the IAM role in the `AWS_ROLE_ARN` repo variable. The Lambda sits behind AWS API Gateway at `pun.andrewmacheret.com`.
+The workflow signs in to AWS with GitHub OIDC using the IAM role in the `AWS_ROLE_ARN` repo variable. The Lambda sits behind AWS API Gateway at `pun.andrewmacheret.com`. The `live` stage's settings, which aren't in git, limit it to 20 requests a second with bursts of 40.
