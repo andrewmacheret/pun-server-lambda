@@ -1,4 +1,4 @@
-# Random pun server using Python and AWS Lambda
+# Random pun server using Go and AWS Lambda
 
 [![Test and deploy](https://github.com/andrewmacheret/pun-server-lambda/actions/workflows/deploy.yml/badge.svg)](https://github.com/andrewmacheret/pun-server-lambda/actions/workflows/deploy.yml) [![Canary](https://github.com/andrewmacheret/pun-server-lambda/actions/workflows/canary.yml/badge.svg)](https://github.com/andrewmacheret/pun-server-lambda/actions/workflows/canary.yml) [![License](https://img.shields.io/badge/license-MIT-lightgray.svg)](https://github.com/andrewmacheret/pun-server-lambda/blob/master/LICENSE.md)
 
@@ -19,7 +19,9 @@ The MIT license texts are in [`PUNS_LICENSE.md`](PUNS_LICENSE.md). Each joke's s
 
 ## Development
 
-Run tests with `cd src/lambda && python3 -m unittest` (needs Python 3.14). To add a pun, add a line to `puns.txt`.
+Run tests with `cd src/lambda && go test ./...` (needs Go 1.27). To add a pun, add a line to `puns.txt`.
+
+The Lambda runs on the `provided.al2023` runtime on arm64. `main.go` talks to the [Lambda runtime API](https://docs.aws.amazon.com/lambda/latest/dg/runtimes-api.html) itself, so it has no dependencies, and `puns.txt` is built into the binary. It starts cold in a few tens of milliseconds, even at 128 MB.
 
 ## Health check
 

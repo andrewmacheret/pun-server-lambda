@@ -1,4 +1,3 @@
 *.zip
-__pycache__/
-*.pyc
+bootstrap
 .DS_Store

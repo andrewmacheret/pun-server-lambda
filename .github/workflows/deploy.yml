@@ -15,17 +15,18 @@ permissions:
 
 env:
   FUNCTION_NAME: Pun
-  RUNTIME: python3.14
+  RUNTIME: provided.al2023
 
 jobs:
   test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
-      - uses: actions/setup-python@v7
+      - uses: actions/setup-go@v7
         with:
-          python-version: '3.14'
-      - run: python3 -m unittest -v
+          go-version-file: src/lambda/go.mod
+          cache: false
+      - run: go vet ./... && go test -v ./...
         working-directory: src/lambda
 
   deploy:
@@ -37,7 +38,16 @@ jobs:
       id-token: write
     steps:
       - uses: actions/checkout@v7
-      - run: zip -j lambda.zip src/lambda/main.py src/lambda/puns.txt
+      - uses: actions/setup-go@v7
+        with:
+          go-version-file: src/lambda/go.mod
+          cache: false
+      # The provided.al2023 runtime runs a file named bootstrap. puns.txt is built into it.
+      - name: Build
+        run: |
+          GOOS=linux GOARCH=arm64 CGO_ENABLED=0 go build -trimpath -ldflags=-s -o bootstrap .
+          zip -j ../../lambda.zip bootstrap
+        working-directory: src/lambda
       - uses: aws-actions/configure-aws-credentials@v6
         with:
           role-to-assume: ${{ vars.AWS_ROLE_ARN }}
@@ -46,16 +56,17 @@ jobs:
       - name: Update runtime and settings
         run: |
           aws lambda update-function-configuration --function-name "$FUNCTION_NAME" \
-            --runtime "$RUNTIME" --handler main.lambda_handler --timeout 3 --memory-size 512 \
+            --runtime "$RUNTIME" --handler bootstrap --timeout 3 --memory-size 128 \
             --output text --query LastUpdateStatus
           aws lambda wait function-updated --function-name "$FUNCTION_NAME"
       - name: Update code
         run: |
           aws lambda update-function-code --function-name "$FUNCTION_NAME" \
-            --zip-file fileb://lambda.zip \
+            --zip-file fileb://lambda.zip --architectures arm64 \
             --output text --query LastUpdateStatus
           aws lambda wait function-updated --function-name "$FUNCTION_NAME"
       - name: Smoke test
         run: |
           curl -sSf -H 'Accept: application/json' https://pun.andrewmacheret.com/ | tee /dev/stderr | jq -e '.pun'
           curl -sSf -H 'Accept: text/plain' https://pun.andrewmacheret.com/
+          curl -sSf https://pun.andrewmacheret.com/healthcheck | jq -e '.status == "ok"'
