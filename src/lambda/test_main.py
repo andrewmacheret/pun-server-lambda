@@ -4,8 +4,8 @@ from unittest import mock
 
 import main
 
-JSON_HEADERS = {"Content-Type": "application/json", "Access-Control-Allow-Origin": "*"}
-TEXT_HEADERS = {"Content-Type": "text/plain", "Access-Control-Allow-Origin": "*"}
+JSON_HEADERS = {"Content-Type": "application/json", "Access-Control-Allow-Origin": "*", "X-Robots-Tag": "noindex"}
+TEXT_HEADERS = {"Content-Type": "text/plain", "Access-Control-Allow-Origin": "*", "X-Robots-Tag": "noindex"}
 
 
 class TestGetPun(unittest.TestCase):

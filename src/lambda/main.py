@@ -4,6 +4,8 @@ from pathlib import Path
 
 PUNS_FILE = Path(__file__).with_name("puns.txt")
 PUNS = PUNS_FILE.read_text(encoding="utf-8").splitlines()
+# noindex keeps Google from listing this API in search results
+HEADERS = {"Access-Control-Allow-Origin": "*", "X-Robots-Tag": "noindex"}
 
 
 def lambda_handler(event, context):
@@ -14,7 +16,7 @@ def lambda_handler(event, context):
   except Exception as ex:
     return {
       "body": json.dumps({"errors": [str(ex)]}),
-      "headers": {"Content-Type": "application/json", "Access-Control-Allow-Origin": "*"},
+      "headers": {**HEADERS, "Content-Type": "application/json"},
       "statusCode": 500
     }
 
@@ -24,7 +26,7 @@ def lambda_handler(event, context):
 
   return {
     "body": body,
-    "headers": {"Content-Type": contentType, "Access-Control-Allow-Origin": "*"},
+    "headers": {**HEADERS, "Content-Type": contentType},
     "statusCode": 200
   }
 
@@ -35,7 +37,7 @@ def healthcheck():
   checks = [{"name": "Jokes", "ok": ok, "detail": f"{len(PUNS)} jokes loaded"}]
   return {
     "body": json.dumps({"status": "ok" if ok else "fail", "checks": checks}),
-    "headers": {"Content-Type": "application/json", "Access-Control-Allow-Origin": "*", "Cache-Control": "no-store"},
+    "headers": {**HEADERS, "Content-Type": "application/json", "Cache-Control": "no-store"},
     "statusCode": 200 if ok else 503
   }
 
